@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="music-player">
+            <img id="song-cover" src="" alt="Song Cover" class="song-cover">
+            <div class="song-info">
+                <h2 id="song-title">Song Title</h2>
+                <p id="song-artist">Song Artist</p>
+            </div>
+            <div class="controls">
+                <button id="prev-btn"><i class="fas fa-step-backward"></i></button>
+                <button id="play-pause-btn"><i class="fas fa-play"></i></button>
+                <button id="next-btn"><i class="fas fa-step-forward"></i></button>
+            </div>
+            <input type="range" id="timeline" min="0" value="0">
+            <p id="current-time">00:00</p>
+        </div>
+        <p class="designer-credit">Designed by Mohamad Aljammal</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
